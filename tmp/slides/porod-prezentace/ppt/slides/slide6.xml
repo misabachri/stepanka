@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld><p:bg><p:bgPr><a:solidFill><a:srgbClr val="FFFBFB"></a:srgbClr></a:solidFill></p:bgPr></p:bg><p:spTree>
+    <p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr>
+    <p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>
+    <p:sp>
+  <p:nvSpPr><p:cNvPr id="10" name="Shape 10"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="12192000" cy="6858000"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="FFF5F0"></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr/><a:lstStyle/><a:p/></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="11" name="Shape 11"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="5934075" y="800100"/><a:ext cx="4953000" cy="5219700"/></a:xfrm><a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 3500"/></a:avLst></a:prstGeom><a:solidFill><a:srgbClr val="FFFFFF"><a:alpha val="90000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr/><a:lstStyle/><a:p/></p:txBody>
+</p:sp>
+<p:pic>
+  <p:nvPicPr><p:cNvPr id="12" name="6.jpg"/><p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr/></p:nvPicPr>
+  <p:blipFill><a:blip r:embed="rIdImg6"/><a:srcRect l="0" r="0" t="4768" b="4768"/><a:stretch><a:fillRect/></a:stretch></p:blipFill>
+  <p:spPr><a:xfrm><a:off x="552450" y="647700"/><a:ext cx="4619625" cy="5572125"/></a:xfrm><a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 3500"/></a:avLst></a:prstGeom></p:spPr>
+</p:pic>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="13" name="Text 13"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="6238875" y="990600"/><a:ext cx="4495800" cy="1123950"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr wrap="square" anchor="t" lIns="0" tIns="0" rIns="0" bIns="0"/><a:lstStyle/><a:p><a:pPr><a:lnSpc><a:spcPct val="112000"/></a:lnSpc></a:pPr><a:r><a:rPr lang="cs-CZ" sz="3900" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="361B0F"></a:srgbClr></a:solidFill><a:latin typeface="Merriweather"/><a:cs typeface="Merriweather"/></a:rPr><a:t>Porod může vypadat i jinak</a:t></a:r></a:p></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="14" name="Shape 14"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="6238875" y="2209800"/><a:ext cx="1600200" cy="19050"/></a:xfrm><a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 3500"/></a:avLst></a:prstGeom><a:solidFill><a:srgbClr val="911C0B"></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr/><a:lstStyle/><a:p/></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="15" name="Text 15"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="6238875" y="2495550"/><a:ext cx="4476750" cy="742950"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr wrap="square" anchor="t" lIns="0" tIns="0" rIns="0" bIns="0"/><a:lstStyle/><a:p><a:pPr><a:lnSpc><a:spcPct val="118000"/></a:lnSpc></a:pPr><a:r><a:rPr lang="cs-CZ" sz="2300" b="1" i="0" dirty="0"><a:solidFill><a:srgbClr val="654334"></a:srgbClr></a:solidFill><a:latin typeface="Source Sans Pro"/><a:cs typeface="Source Sans Pro"/></a:rPr><a:t>Různé polohy, více svobody pohybu a větší zapojení ženy.</a:t></a:r></a:p></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="16" name="Text 16"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="6238875" y="3371850"/><a:ext cx="4495800" cy="1714500"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr wrap="square" anchor="t" lIns="0" tIns="0" rIns="0" bIns="0"/><a:lstStyle/><a:p><a:pPr marL="285750" indent="-171450"><a:lnSpc><a:spcPct val="120000"/></a:lnSpc><a:spcAft><a:spcPts val="700"/></a:spcAft><a:buChar char="•"/></a:pPr><a:r><a:rPr lang="cs-CZ" sz="2200" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="361B0F"></a:srgbClr></a:solidFill><a:latin typeface="Source Sans Pro"/><a:cs typeface="Source Sans Pro"/></a:rPr><a:t>gauč</a:t></a:r></a:p><a:p><a:pPr marL="285750" indent="-171450"><a:lnSpc><a:spcPct val="120000"/></a:lnSpc><a:spcAft><a:spcPts val="700"/></a:spcAft><a:buChar char="•"/></a:pPr><a:r><a:rPr lang="cs-CZ" sz="2200" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="361B0F"></a:srgbClr></a:solidFill><a:latin typeface="Source Sans Pro"/><a:cs typeface="Source Sans Pro"/></a:rPr><a:t>voda</a:t></a:r></a:p><a:p><a:pPr marL="285750" indent="-171450"><a:lnSpc><a:spcPct val="120000"/></a:lnSpc><a:spcAft><a:spcPts val="700"/></a:spcAft><a:buChar char="•"/></a:pPr><a:r><a:rPr lang="cs-CZ" sz="2200" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="361B0F"></a:srgbClr></a:solidFill><a:latin typeface="Source Sans Pro"/><a:cs typeface="Source Sans Pro"/></a:rPr><a:t>porodní stolička</a:t></a:r></a:p><a:p><a:pPr marL="285750" indent="-171450"><a:lnSpc><a:spcPct val="120000"/></a:lnSpc><a:spcAft><a:spcPts val="700"/></a:spcAft><a:buChar char="•"/></a:pPr><a:r><a:rPr lang="cs-CZ" sz="2200" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="361B0F"></a:srgbClr></a:solidFill><a:latin typeface="Source Sans Pro"/><a:cs typeface="Source Sans Pro"/></a:rPr><a:t>postel</a:t></a:r></a:p></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="17" name="Shape 17"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="6238875" y="5143500"/><a:ext cx="4305300" cy="742950"/></a:xfrm><a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 3500"/></a:avLst></a:prstGeom><a:solidFill><a:srgbClr val="FFF5F0"></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr/><a:lstStyle/><a:p/></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="18" name="Text 18"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="6410325" y="5172075"/><a:ext cx="323850" cy="419100"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr wrap="square" anchor="t" lIns="0" tIns="0" rIns="0" bIns="0"/><a:lstStyle/><a:p><a:pPr><a:lnSpc><a:spcPct val="100000"/></a:lnSpc></a:pPr><a:r><a:rPr lang="cs-CZ" sz="5200" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="DEC0B2"></a:srgbClr></a:solidFill><a:latin typeface="Merriweather"/><a:cs typeface="Merriweather"/></a:rPr><a:t>“</a:t></a:r></a:p></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="19" name="Text 19"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="6791325" y="5276850"/><a:ext cx="3505200" cy="552450"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr wrap="square" anchor="t" lIns="0" tIns="0" rIns="0" bIns="0"/><a:lstStyle/><a:p><a:pPr><a:lnSpc><a:spcPct val="112000"/></a:lnSpc></a:pPr><a:r><a:rPr lang="cs-CZ" sz="2100" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="911C0B"></a:srgbClr></a:solidFill><a:latin typeface="Merriweather"/><a:cs typeface="Merriweather"/></a:rPr><a:t>Každé ženě vyhovuje něco jiného.</a:t></a:r></a:p></p:txBody>
+</p:sp>
+<p:sp>
+  <p:nvSpPr><p:cNvPr id="20" name="Text 20"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr>
+  <p:spPr><a:xfrm><a:off x="10629900" y="6343650"/><a:ext cx="762000" cy="228600"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr>
+  <p:txBody><a:bodyPr wrap="square" anchor="t" lIns="0" tIns="0" rIns="0" bIns="0"/><a:lstStyle/><a:p><a:pPr algn="r"></a:pPr><a:r><a:rPr lang="cs-CZ" sz="1300" b="0" i="0" dirty="0"><a:solidFill><a:srgbClr val="B79C8B"></a:srgbClr></a:solidFill><a:latin typeface="Merriweather"/><a:cs typeface="Merriweather"/></a:rPr><a:t>06</a:t></a:r></a:p></p:txBody>
+</p:sp>
+  </p:spTree></p:cSld><p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>
+</p:sld>

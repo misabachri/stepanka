@@ -247,21 +247,26 @@
       line-height: 1.2;
       box-shadow: 0 14px 34px rgba(54, 27, 15, .08);
       position: relative;
-      overflow: hidden;
+      overflow: visible;
       z-index: 0;
     }
 
     .note::before {
       content: "“";
       position: absolute;
-      right: 18px;
-      bottom: -42px;
-      color: rgba(222, 192, 178, .28);
+      right: -10px;
+      top: -42px;
+      color: rgba(183, 156, 139, .18);
       font-family: var(--head);
-      font-size: clamp(84px, min(10cqw, 18cqh), 138px);
+      font-size: clamp(92px, min(11cqw, 19cqh), 150px);
       line-height: 1;
-      z-index: -1;
+      z-index: 0;
       pointer-events: none;
+    }
+
+    .note > * {
+      position: relative;
+      z-index: 1;
     }
 
     .small-card {
@@ -586,7 +591,7 @@
                 <li>Doprovázím ženy těhotenstvím, porodem i po porodu.</li>
                 <li>Nabízím předporodní přípravu, doprovod k porodu a poporodní péči.</li>
               </ul>
-              <p class="note">Moje práce není jen o zdravotní péči. Je hlavně o podpoře, důvěře a bezpečí.</p>
+              <p class="note"><span>Moje práce není jen o zdravotní péči. Je hlavně o podpoře, důvěře a bezpečí.</span></p>
             </div>
           </div>
           <span class="num">02</span>
@@ -643,7 +648,7 @@
                 <li>zavedené postupy</li>
                 <li>omezený prostor pro vytvoření důvěry</li>
               </ul>
-              <p class="note">Ne proto, že by někdo chtěl ublížit. Ale protože systém má svoje limity.</p>
+              <p class="note"><span>Ne proto, že by někdo chtěl ublížit. Ale protože systém má svoje limity.</span></p>
             </div>
             <div class="photo-wrap"><img class="photo" src="assets/5.jpg" alt=""></div>
           </div>
@@ -665,7 +670,7 @@
                 <li>porodní stolička</li>
                 <li>postel</li>
               </ul>
-              <p class="note">Každé ženě vyhovuje něco jiného.</p>
+              <p class="note"><span>Každé ženě vyhovuje něco jiného.</span></p>
             </div>
           </div>
           <span class="num">06</span>
@@ -684,7 +689,7 @@
               <li>každé tělo je jiné</li>
               <li>každá zkušenost je jiná</li>
             </ul>
-            <p class="note">Důležité je, aby se žena cítila bezpečně, respektovaně a vyslyšeně.</p>
+            <p class="note"><span>Důležité je, aby se žena cítila bezpečně, respektovaně a vyslyšeně.</span></p>
           </div>
           <span class="num">07</span>
         </div>
@@ -701,7 +706,7 @@
               <li>porod si žena pamatuje celý život</li>
               <li>většinou ho zažije jen 1–2×</li>
             </ul>
-            <p class="note">Není to „jen jeden den“.</p>
+            <p class="note"><span>Není to „jen jeden den“.</span></p>
           </div>
           <span class="num">08</span>
         </div>
@@ -719,7 +724,7 @@
                 <li>vztah k dítěti</li>
                 <li>začátek kojení</li>
               </ul>
-              <p class="note">Může ji posílit... nebo naopak oslabit.</p>
+              <p class="note"><span>Může ji posílit... nebo naopak oslabit.</span></p>
             </div>
             <div class="photo-wrap"><img class="photo portrait" src="assets/jakporod.jpg" alt=""></div>
           </div>
@@ -759,7 +764,7 @@
                 <li>když má kolem sebe známé lidi</li>
                 <li>když má kontinuální péči</li>
               </ul>
-              <p class="note">Důvěra = klíč k dobrému zážitku.</p>
+              <p class="note"><span>Důvěra = klíč k dobrému zážitku.</span></p>
             </div>
             <div class="photo-wrap"><img class="photo" src="assets/11-1.jpg" alt=""></div>
           </div>
@@ -797,7 +802,7 @@
               <li>můžete mít informace</li>
               <li>můžete mít někoho na své straně</li>
             </ul>
-            <p class="note">A přesně to nabízím.</p>
+            <p class="note"><span>A přesně to nabízím.</span></p>
           </div>
           <span class="num">13</span>
         </div>

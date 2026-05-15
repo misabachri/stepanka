@@ -35,6 +35,7 @@ const imageDims = {
   "1.jpg": [5464, 8192],
   "2.jpg": [1920, 1080],
   "3.jpg": [1600, 1066],
+  "taska.jpg": [1080, 1920],
   "4.jpg": [1066, 1600],
   "5.jpg": [6016, 4016],
   "6.jpg": [1536, 2048],
@@ -75,14 +76,9 @@ const slides = [
   },
   {
     kind: "statement",
-    image: "3.jpg",
-    title: "Proč právě porod?",
-    lead: "Protože porod není jen „lékařská událost“.",
-    body: [
-      "Je to silný životní moment.",
-      "Zážitek, který si ženy pamatují celý život.",
-      "Může být posilující, nebo naopak zraňující.",
-    ],
+    image: "taska.jpg",
+    title: "Domácí péče porodní asistentky",
+    body: ["v těhotenství", "počínající porod", "poporodní péče"],
   },
   {
     image: "4.jpg",
@@ -331,8 +327,9 @@ function titleSlide(s, mediaMap) {
 function statementSlide(s, idx, mediaMap) {
   let id = 10;
   const out = [];
+  const imageCrop = s.image === "taska.jpg" ? { l: 0, r: 0, t: 50000, b: 18400 } : undefined;
   out.push(shape(id++, 0, 0, W, H, C.bg));
-  out.push(imagePic(id++, mediaMap.get(s.image).rId, s.image, 0, 0, W, H));
+  out.push(imagePic(id++, mediaMap.get(s.image).rId, s.image, 0, 0, W, H, { crop: imageCrop }));
   out.push(shape(id++, 0, 0, W, H, C.bgWarm, { alpha: 76000 }));
   out.push(shape(id++, 91, 92, 700, 500, C.white, { prst: "roundRect", alpha: 92000 }));
   out.push(textBox(id++, 135, 134, 610, 128, [paragraph(s.title, { size: 54, font: FONT.head, color: C.text, line: 108000 })]));

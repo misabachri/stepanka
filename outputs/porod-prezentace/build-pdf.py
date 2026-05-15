@@ -49,7 +49,7 @@ def cover_box(img_path, x, y, w, h):
         crop = (sx, 0, sx + visible_w, ih)
     else:
         visible_h = iw / fr
-        sy = (ih - visible_h) / 2
+        sy = (ih - visible_h) * (.72 if img_path.name == "taska.jpg" else .5)
         crop = (0, sy, iw, sy + visible_h)
 
     tmp_dir = Path(__file__).resolve().parents[2] / "tmp/slides/porod-prezentace/pdf-images"
@@ -144,7 +144,7 @@ def quote_note(c, value, x, y, w=452, h=78, size=22, max_chars=38):
 slides = [
     ("title", "1.jpg", "Porod není jen medicína", [], "aneb proč na porodu záleží", "Bc. Štěpánka Trappová", "komunitní porodní asistentka"),
     ("content", "2.jpg", "Kdo jsem a co dělám", ["Doprovázím ženy těhotenstvím, porodem i po porodu.", "Nabízím předporodní přípravu, doprovod k porodu a poporodní péči."], "Jsem porodní asistentka.", None, "Moje práce není jen o zdravotní péči. Je hlavně o podpoře, důvěře a bezpečí."),
-    ("statement", "3.jpg", "Proč právě porod?", ["Je to silný životní moment.", "Zážitek, který si ženy pamatují celý život.", "Může být posilující, nebo naopak zraňující."], "Protože porod není jen „lékařská událost“.", None, None),
+    ("statement", "taska.jpg", "Domácí péče porodní asistentky", ["v těhotenství", "počínající porod", "poporodní péče"], None, None, None),
     ("content", "4.jpg", "Jak si ženy porod představují", ["žena leží na zádech", "hodně zásahů a léků", "rychlý, dramatický průběh", "často pasivní role ženy"], "Podle filmů a médií:", None, None),
     ("content", "5.jpg", "Realita v systému", ["méně prostoru pro individuální přístup", "časový tlak", "zavedené postupy", "omezený prostor pro vytvoření důvěry"], None, None, "Ne proto, že by někdo chtěl ublížit. Ale protože systém má svoje limity."),
     ("content", "6.jpg", "Porod může vypadat i jinak", ["gauč", "voda", "porodní stolička", "postel"], "Různé polohy, více svobody pohybu a větší zapojení ženy.", None, "Každé ženě vyhovuje něco jiného."),

@@ -150,10 +150,10 @@ slides = [
     ("content", "6.jpg", "Porod může vypadat i jinak", ["gauč", "voda", "porodní stolička", "postel"], "Různé polohy, více svobody pohybu a větší zapojení ženy.", None, "Každé ženě vyhovuje něco jiného."),
     ("statement", "7.jpg", "Neexistuje jeden „správný“ porod", ["každá žena je jiná", "každé tělo je jiné", "každá zkušenost je jiná"], None, None, "Důležité je, aby se žena cítila bezpečně, respektovaně a vyslyšeně."),
     ("statement", "8.jpg", "Proč na porodu záleží", ["porod si žena pamatuje celý život", "většinou ho zažije jen 1–2×"], None, None, "Není to „jen jeden den“."),
-    ("content", "9.jpg", "Jak porod ovlivňuje ženu", ["sebevědomí", "vztah k sobě", "vztah k dítěti", "začátek kojení"], None, None, "Může ji posílit... nebo naopak oslabit."),
+    ("content", "jakporod.jpg", "Jak porod ovlivňuje ženu", ["sebevědomí", "vztah k sobě", "vztah k dítěti", "začátek kojení"], None, None, "Může ji posílit... nebo naopak oslabit."),
     ("content", "10a.jpg", "Proč dělám to, co dělám", ["podporu", "respekt", "individuální přístup", "pochopení", "nesouzení"], "Protože věřím, že porod může být posilující zážitek a ženy mají v sobě obrovskou sílu.", None, None),
     ("content", "11 (1).jpg", "Co dělá rozdíl", ["když žena není „jen další pacientka“", "když má kolem sebe známé lidi", "když má kontinuální péči"], None, None, "Důvěra = klíč k dobrému zážitku."),
-    ("content", "12.jpg", "Co mě ovlivnilo", ["zkušenost z Německa", "vlastní porod", "ukázalo mi to, že věci mohou fungovat i jinak"], None, None, None),
+    ("content", "come.jpg", "Co mě ovlivnilo", ["zkušenost z Německa", "vlastní porod", "ukázalo mi to, že věci mohou fungovat i jinak"], None, None, None),
     ("statement", "13.jpg", "Na porod nemusíte být sama", ["můžete mít podporu", "můžete mít informace", "můžete mít někoho na své straně"], None, None, "A přesně to nabízím."),
     ("contact", "14.jpg", "Pokud vás to oslovilo...", ["Bc. Štěpánka Trappová", "+420 605 074 332", "stepanka@trappea.cz", "www.trappea.cz"], "Ráda vás podpořím. Můžete se na mě obrátit.", None, None),
 ]
